@@ -42,11 +42,10 @@ ln -sf "/usr/share/zoneinfo/UTC" "/etc/localtime"
 usermod -s /usr/bin/bash root
 
 # Create liveuser
-useradd -m -p "" -g 'liveuser' -G 'sys,rfkill,wheel,uucp,nopasswdlogin,adm,tty' -s /bin/bash liveuser
+useradd -m -p "" -g 'liveuser' -G 'sys,rfkill,wheel,uucp,nopasswdlogin,adm,tty' -s /bin/bash -k /etc/live-skel liveuser
 
 # Remove liveuser skel to then install user skel
-pacman -Rns --noconfirm -- "endeavouros-skel-liveuser"
-rm -rf "/root/endeavouros-skel-liveuser"
+rm -rf "/etc/live-skel"
 
 # Root qt style for Calamares
 mkdir "/root/.config"
