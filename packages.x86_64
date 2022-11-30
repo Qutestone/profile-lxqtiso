@@ -122,7 +122,7 @@ duf
 fakeroot
 freetype2
 git
-glances
+htop
 python-packaging
 gpm
 gptfdisk
@@ -183,12 +183,6 @@ bluez
 bluez-utils
 blueman
 
-## Firewall
-firewalld
-python-pyqt5
-python-capng
-
-
 # ISO
 
 ## Live iso specific
@@ -199,7 +193,6 @@ pv
 syslinux
 
 ## Live iso tools
-clonezilla
 gpart
 gparted
 grsync
@@ -209,47 +202,52 @@ hdparm
 # DESKTOP
 
 ## Display manager
-accountsservice
-lightdm-slick-greeter
-eos-lightdm-slick-theme
+sddm
+eos-sddm-theme
 
 ## Desktop environment
-libwnck3
-network-manager-applet
-thunar-archive-plugin
-thunar-media-tags-plugin
-xfce4
-xfce4-battery-plugin
-xfce4-datetime-plugin
-xfce4-mount-plugin
-xfce4-netload-plugin
-xfce4-notifyd
-xfce4-pulseaudio-plugin
-xfce4-screensaver
-xfce4-screenshooter
-xfce4-taskmanager
-xfce4-wavelan-plugin
-xfce4-weather-plugin
-xfce4-whiskermenu-plugin
-xfce4-xkb-plugin
+liblxqt
+lximage-qt
+lxqt-about
+lxqt-admin
+lxqt-archiver
+lxqt-build-tools
+lxqt-config
+lxqt-globalkeys
+lxqt-notificationd
+lxqt-openssh-askpass
+lxqt-panel
+lxqt-policykit
+lxqt-powermanagement
+lxqt-qtplugin
+lxqt-runner
+lxqt-session
+lxqt-sudo
+lxqt-themes
+obconf-qt
+openbox
+pavucontrol-qt
+pcmanfm-qt
+qterminal
+screengrab
+xdg-desktop-portal-lxqt 
+featherpad
+feathernotes
 
-## Editor
-xed
+# screensaver
+xscreensaver
 
-## Archive
-file-roller
 
-## Image viewer
-ristretto
+
 
 ## Video player
-parole
+vlc
 
 ## Browser
-firefox
+falkon
 
 ## System
-galculator
+speedcrunch
 meld
 neofetch
 
@@ -279,7 +277,7 @@ eos-quickstart
 eos-qogir-icons
 eos-rankmirrors
 eos-update-notifier
-nvidia-installer-dkms
+nvidia-inst
 rate-mirrors
 reflector-simple
 welcome
