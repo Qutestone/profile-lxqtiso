@@ -83,7 +83,6 @@ xorg-xrandr
 ## Network hardware
 b43-fwcutter
 broadcom-wl-dkms
-linux-atm
 
 ## General hardware
 lsscsi
@@ -101,7 +100,6 @@ gst-plugin-pipewire
 gst-plugins-bad
 gst-plugins-ugly
 libdvdcss
-paprefs
 pavucontrol
 pipewire-alsa
 pipewire-jack
@@ -115,6 +113,7 @@ wireplumber
 
 ## General system
 bash-completion
+dmidecode
 dialog
 dmraid
 downgrade
@@ -122,7 +121,7 @@ duf
 fakeroot
 freetype2
 git
-htop
+glances
 python-packaging
 gpm
 gptfdisk
@@ -154,7 +153,6 @@ bind
 dhclient
 dnsmasq
 ethtool
-gnu-netcat
 iwd
 modemmanager
 nbd
@@ -162,8 +160,8 @@ ndisc6
 net-tools
 netctl
 networkmanager
+networkmanager-openconnect
 networkmanager-openvpn
-nmap
 nss-mdns
 openconnect
 openvpn
@@ -174,7 +172,7 @@ usb_modeswitch
 vpnc
 whois
 wireless-regdb
-wireless_tools
+#wireless_tools
 wpa_supplicant
 xl2tpd
 
@@ -182,6 +180,11 @@ xl2tpd
 bluez
 bluez-utils
 blueman
+
+## Firewall
+firewalld
+python-pyqt5
+python-capng
 
 # ISO
 
@@ -193,13 +196,18 @@ pv
 syslinux
 
 ## Live iso tools
+clonezilla
 gpart
 gparted
 grsync
 hdparm
 
-
 # DESKTOP
+
+
+## Desktop environment
+
+network-manager-applet
 
 ## Display manager
 sddm
@@ -233,21 +241,21 @@ screengrab
 xdg-desktop-portal-lxqt 
 featherpad
 feathernotes
+papirus-icon-theme
 
-# screensaver
-xscreensaver
-
+# screenlocker
+slock
 
 
 
 ## Video player
-vlc
+vlv
 
 ## Browser
-falkon
+firefox
 
 ## System
-speedcrunch
+galculator
 meld
 neofetch
 
@@ -261,7 +269,6 @@ ttf-bitstream-vera
 ttf-dejavu
 ttf-liberation
 ttf-opensans
-
 
 # ENDEAVOUROS REPO
 
@@ -281,17 +288,12 @@ nvidia-inst
 rate-mirrors
 reflector-simple
 welcome
-yad-eos
 yay
 
 ## Calamares EndeavourOS
-calamares_config_ce
-calamares_config_default
-calamares_current
+calamares
 ckbcomp
 kvantum
-qt5ct
-
 
 # VM SUPPORT
 
